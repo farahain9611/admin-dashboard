@@ -43,7 +43,6 @@ A simple and powerful admin dashboard using Laravel 11 + Livewire 3 + Spatie Per
 ## 🚀 Installation Steps
 
    ```` 
-   ```bash 
    git clone https://github.com/farahain9611/admin-dashboard.git
    cd admin-dashboard
    composer install
