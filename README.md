@@ -144,12 +144,18 @@ Now, visit http://localhost:8000 in your browser!
 ### 👤 Demo Logins
 
 **Admin Login**
+
 Email: admin@example.com
+
 Password: password
 
+
 **User Login**
+
 Email: user@example.com
+
 Password: password
+
 
 ### 💻 Tech Stack
 
