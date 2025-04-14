@@ -116,20 +116,20 @@ A Laravel 11 admin dashboard template with **role-based permissions**, **user ma
 2. **Install dependencies**:
 
    composer install
-
+   
 3. **Set up your environment**:
 
    Copy .env.example to .env:
    cp .env.example .env
    Generate the app key:
    php artisan key:generate
-
+   
 4. **Set up the database**:
 
    Open .env and configure the database connection.
    Run migrations and seed demo data:
    php artisan migrate:fresh --seed
-
+   
 5. **Serve the application**:
 
    php artisan serve
