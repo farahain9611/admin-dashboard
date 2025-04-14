@@ -64,3 +64,91 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Admin Dashboard - Laravel Livewire
+
+![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange)
+![Livewire Version](https://img.shields.io/badge/Livewire-3.x-brightgreen)
+
+A Laravel 11 admin dashboard template with **role-based permissions**, **user management**, and more. Built using **Laravel Livewire**, **Spatie Permissions**, and **Bootstrap 5** for a modern, interactive, and easy-to-use admin panel.
+
+---
+
+## 🌟 Features
+
+- **User Authentication** (login system)
+- **Role Management**: Create, update, delete roles
+- **Permission Management**: Assign and manage permissions
+- **Role-based Permissions**: Assign permissions to roles
+- **CRUD Operations** for users, roles, and permissions
+- **Responsive UI** built with **Bootstrap 5**
+- **Dark Mode**: Coming soon!
+
+---
+
+## 📷 Screenshots
+
+![Admin Dashboard](https://example.com/screenshot-1.png)  
+*Admin dashboard showing key stats and user management.*
+
+![Roles Management](https://example.com/screenshot-2.png)  
+*Manage roles and assign permissions.*
+
+---
+
+## 🔧 Installation
+
+### Requirements
+
+- PHP 8.0+
+- Laravel 11.x
+- Composer
+- MySQL / PostgreSQL / SQLite
+
+### Installation Steps
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/farahain9611/admin-dashboard.git
+   cd admin-dashboard
+
+2. **Install dependencies**:
+
+   composer install
+
+3. **Set up your environment**:
+
+   ```Copy .env.example to .env:
+   cp .env.example .env
+   ```Generate the app key:
+   php artisan key:generate
+
+4. **Set up the database**:
+
+   ```Open .env and configure the database connection.
+   ```Run migrations and seed demo data:
+   php artisan migrate:fresh --seed
+
+5. **Serve the application**:
+
+   php artisan serve
+   ```Now, visit http://localhost:8000 in your browser!
+
+### 👤 Demo Logins
+
+**Admin Login**
+Email: admin@example.com
+Password: password
+
+**User Login**
+Email: user@example.com
+Password: password
+
+### 💻 Tech Stack
+
+- Laravel 11.x
+- Livewire 3.x
+- Bootstrap 5
+- Spatie Permission Package
+- MySQL / PostgreSQL / SQLite (configurable)
