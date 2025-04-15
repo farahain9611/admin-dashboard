@@ -23,7 +23,7 @@ RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 RUN chmod -R 755 /var/www && chown -R www-data:www-data /var/www
 
 # Generate key
-RUN php artisan key:generate
+# RUN php artisan key:generate
 
 # Expose port
 EXPOSE 8000
