@@ -34,5 +34,7 @@ Route::middleware('role:admin')->group(function () {
 //     ->middleware(['auth'])
 //     ->name('profile');
 
-
+Route::get('/health', function () {
+    return response()->json(['status' => 'OK'], 200);
+});
 require __DIR__.'/auth.php';
